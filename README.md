@@ -11,15 +11,15 @@ An AI agent that helps a student manage a to-do list, check the weather and look
 
 ## Setup
 ```bash
-git clone <your-repo-link>
-cd <repo-folder>
+git clone https://github.com/avtandiliimedashvili1-arch/assignment2.git
+cd assignment2
 pip install -r requirements.txt
 ```
-Get a free Gemini API key at https://aistudio.google.com ("Get API key"), then copy `.env.example` to `.env` and fill it in:
+Get a free Gemini API key at https://aistudio.google.com ("Get API key"), then copy `env.example` to a new file named `.env` and fill it in:
 ```
 GOOGLE_API_KEY=""
 ```
-Never upload your real key to GitHub (`.env` is in `.gitignore`).
+Never upload your real key (or your `.env` file) to GitHub.
 
 ## How to run
 | Version | Command |
